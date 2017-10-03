@@ -23,6 +23,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginTop="20dp"
+        android:id="@+id/linear"
         >
 
         <ImageButton
@@ -34,6 +35,7 @@
             android:background="@drawable/choice"
             android:onClick="cardClick"
             android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
             />
 
         <ImageButton
@@ -44,7 +46,9 @@
             android:background="@drawable/choice"
             android:onClick="cardClick"
             android:adjustViewBounds="true"
-             />
+            android:scaleType="fitCenter"
+
+            />
 
         <ImageButton
             android:id="@+id/card3"
@@ -53,7 +57,9 @@
             android:background="@drawable/choice"
             android:onClick="cardClick"
             android:adjustViewBounds="true"
-             />
+            android:scaleType="fitCenter"
+
+            />
     </LinearLayout>
 
     <TextView
